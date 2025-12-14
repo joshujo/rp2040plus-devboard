@@ -1,6 +1,6 @@
 # RP2040+ Devboard
 
-This is a devboard that is designed to have a basic sensor, OLED screen, buttons and LEDs pre-embedded onto the board. The idea of this design was to have some basic hardware already available on the develepment board itself so an external bread board and some additional components with a kit and such is not needed to use it. Additionally, it can be used as a simple console or just a temperature monitor if desired. The board is designed to be extended with an additional 17 GPIO pins exposed to the user for prototyping. 
+This is a devboard that is designed to have a basic sensor, OLED screen, buttons and LEDs pre-embedded onto the board. The idea of this design was to have some basic hardware already available on the development board itself so an external bread board and some additional components with a kit and such is not needed to use it. Additionally, it can be used as a simple console or just a temperature monitor if desired. The board is designed to be extended with an additional 17 GPIO pins exposed to the user for prototyping. 
 
 ## Features
 
@@ -17,7 +17,7 @@ This is a devboard that is designed to have a basic sensor, OLED screen, buttons
 - 13 programmable buttons
 - Designed to be used as is, no external bread board or components needed
 - Moderate form factor of 100x40mm
-- RP2040 comes with another I<sup>2</sup>C bus for more external components
+- RP2040 comes with another I²C bus for more external components
 
 # Datasheet
 
@@ -38,7 +38,7 @@ COL0: GPIO19\
 COL1: GPIO20\
 COL2: GPIO21
 
-## I<sud>2</sud>C
+## I²C
 SDA: GPIO22\
 SCL: GPIO23
 

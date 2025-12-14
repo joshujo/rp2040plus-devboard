@@ -506,7 +506,7 @@
       "plot": "PRODUCTION/",
       "pos_files": "./",
       "specctra_dsn": "",
-      "step": "",
+      "step": "RP2040 Devboard.step",
       "svg": "",
       "vrml": ""
     },

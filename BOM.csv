@@ -22,13 +22,12 @@ W25Q128JVSIQ,128Mbit 2.7V~3.6V 133MHz SPI SOIC-8-208mil Memory (ICs) RoHS,5,1.56
 NCP1117ST33T3G,"62dB@(120Hz) Positive Fixed 3.3V SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS",5,0.2315,$1.16,https://www.lcsc.com/product-detail/C26537.html,$51.53
 BSS138LT1G,"50V 200mA 225mW 5.6Ω@2.75V One N-channel SOT-23 Single FETs, MOSFETs RoHS",20,0.0342,$0.68,https://www.lcsc.com/product-detail/C82045.html,$52.21
 FRC0603F27R4TS,100mW 27.4Ω 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,100,0.0009,$0.09,https://www.lcsc.com/product-detail/C5126244.html,$52.30
-RC0603FR-071KL,100mW 1kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,100,0.0011,$0.11,https://www.lcsc.com/product-detail/C22548.html,$52.41
-0603WAF4700T5E,100mW 470Ω 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,100,0.0012,$0.12,https://www.lcsc.com/product-detail/C23179.html,$52.53
-AR03BTCX5001,100mW 5kΩ 75V ±25ppm/℃ Thin Film Resistor ±0.1% 0603 Chip Resistor - Surface Mount RoHS,20,0.0302,$0.60,https://www.lcsc.com/product-detail/C2828621.html,$53.13
-RC0603FR-07100RL,100mW 100Ω 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,100,0.0011,$0.11,https://www.lcsc.com/product-detail/C105588.html,$53.24
-FRC0603F5101TS,100mW 5.1kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,100,0.0009,$0.09,https://www.lcsc.com/product-detail/C2907044.html,$53.33
-RC0603FR-0710KL,100mW 10kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,100,0.0011,$0.11,https://www.lcsc.com/product-detail/C98220.html,$53.44
-FRC0603F3302TS,33kΩ 100mW 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,100,0.0009,$0.09,https://www.lcsc.com/product-detail/C2907028.html,$53.53
-RC0402FR-071KL,1kΩ 62.5mW 50V ±100ppm/℃ Thick Film Resistor ±1% 0402 Chip Resistor - Surface Mount RoHS,100,0.0006,$0.06,https://www.lcsc.com/product-detail/C106235.html,$53.59
-PZ254V-11-03P,"3P 1x3P -40℃~+105℃ Pin Header Black 2.54mm 2.5mm 6mm 250V 3mm 1 3A Through Hole Through Hole,P=2.54mm Headers, Male Pins RoHS",50,0.0162,$0.81,https://www.lcsc.com/product-detail/C2937625.html,$54.40
-PZ254V-11-04P,"4P 1x4P -40℃~+105℃ Black Pin Header 2.54mm 2.5mm 6mm 250V 3mm 1 3A Through Hole Through Hole,P=2.54mm Headers, Male Pins RoHS",20,0.0217,$0.43,https://www.lcsc.com/product-detail/C2691448.html,$54.83
+0603WAF4700T5E,100mW 470Ω 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,100,0.0012,$0.12,https://www.lcsc.com/product-detail/C23179.html,$52.42
+AR03BTCX5001,100mW 5kΩ 75V ±25ppm/℃ Thin Film Resistor ±0.1% 0603 Chip Resistor - Surface Mount RoHS,20,0.0302,$0.60,https://www.lcsc.com/product-detail/C2828621.html,$53.02
+RC0603FR-07100RL,100mW 100Ω 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,100,0.0011,$0.11,https://www.lcsc.com/product-detail/C105588.html,$53.13
+FRC0603F5101TS,100mW 5.1kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,100,0.0009,$0.09,https://www.lcsc.com/product-detail/C2907044.html,$53.22
+RC0603FR-0710KL,100mW 10kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,100,0.0011,$0.11,https://www.lcsc.com/product-detail/C98220.html,$53.33
+FRC0603F3302TS,33kΩ 100mW 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS,100,0.0009,$0.09,https://www.lcsc.com/product-detail/C2907028.html,$53.42
+RC0402FR-071KL,1kΩ 62.5mW 50V ±100ppm/℃ Thick Film Resistor ±1% 0402 Chip Resistor - Surface Mount RoHS,100,0.0006,$0.06,https://www.lcsc.com/product-detail/C106235.html,$53.48
+PZ254V-11-03P,"3P 1x3P -40℃~+105℃ Pin Header Black 2.54mm 2.5mm 6mm 250V 3mm 1 3A Through Hole Through Hole,P=2.54mm Headers, Male Pins RoHS",50,0.0162,$0.81,https://www.lcsc.com/product-detail/C2937625.html,$54.29
+PZ254V-11-04P,"4P 1x4P -40℃~+105℃ Black Pin Header 2.54mm 2.5mm 6mm 250V 3mm 1 3A Through Hole Through Hole,P=2.54mm Headers, Male Pins RoHS",20,0.0217,$0.43,https://www.lcsc.com/product-detail/C2691448.html,$54.72

@@ -1,2 +1,91 @@
-# rp2040plus devboard
+# RP2040+ Devboard
 
+This is a devboard that is designed to have a basic sensor, OLED screen, buttons and LEDs pre-embedded onto the board. The idea of this design was to have some basic hardware already available on the develepment board itself so an external bread board and some additional components with a kit and such is not needed to use it. Additionally, it can be used as a simple console or just a temperature monitor if desired. The board is designed to be extended with an additional 17 GPIO pins exposed to the user for prototyping. 
+
+## Features
+
+- 17 GPIO pins exposed
+- HDC1080 accurate temperature + humidity sensor
+- Buzzer
+- OLED screen
+- USB-C connector for power + data
+- An additional power only USB-C connector designed to have an external battery plugged in
+- 10 NeoPixel LEDs
+- Programmable matrix buttons
+- Up to 900mA +3V3
+- Up to 3A VBUS
+- 13 programmable buttons
+- Designed to be used as is, no external bread board or components needed
+- Moderate form factor of 100x40mm
+- RP2040 comes with another I<sup>2</sup>C bus for more external components
+
+# Datasheet
+
+## Base
+HDC1080 Addr: 1000000\
+OLED Addr: 0111100 or 0111101\
+Buzzer: GPIO24\
+LED: GPIO25\
+Neopixels: GPIO14
+
+## Keypad
+Shift: GPIO13\
+ROW0: GPIO15\
+ROW1: GPIO16\
+ROW2: GPIO17\
+ROW3: GPIO18\
+COL0: GPIO19\
+COL1: GPIO20\
+COL2: GPIO21
+
+## I<sud>2</sud>C
+SDA: GPIO22\
+SCL: GPIO23
+
+# Schematic
+<img width="4960" height="3507" alt="image" src="https://github.com/user-attachments/assets/ae022384-8064-4245-b36c-7af20f2953a0" />
+
+# PCB
+<img width="582" height="1426" alt="image" src="https://github.com/user-attachments/assets/9eb8cebe-b811-4402-858b-f69566d3094c" />
+
+<img width="748" height="1577" alt="RP2040 Devboard" src="https://github.com/user-attachments/assets/7b8ddb95-979e-4593-a71f-4ce8506fae56" />
+
+# BOM
+
+| Item                     | Description                                                                                                                   | Quantity(For 5 units at minimum order amount) | Unit Price | Total Price | URL                                                                                                      | Running Total |
+| ------------------------ | ----------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------- | ---------- | ----------- | -------------------------------------------------------------------------------------------------------- | ------------- |
+| CL05A105KP5NNNC          | 10V 1uF X5R ±10% 0402 Ceramic Capacitors RoHS                                                                                 | 100                                           | 0.0017     | $0.17       | [https://www.lcsc.com/product-detail/C14445.html](https://www.lcsc.com/product-detail/C14445.html)       | $0.17         |
+| CL05B104KO5NNNC          | 16V 100nF X7R ±10% 0402 Ceramic Capacitors RoHS                                                                               | 100                                           | 0.0012     | $0.12       | [https://www.lcsc.com/product-detail/C1525.html](https://www.lcsc.com/product-detail/C1525.html)         | $0.29         |
+| CC0603JRNPO9BN330        | 50V 33pF NP0 ±5% 0603 Ceramic Capacitors RoHS                                                                                 | 100                                           | 0.0024     | $0.24       | [https://www.lcsc.com/product-detail/C107047.html](https://www.lcsc.com/product-detail/C107047.html)     | $0.53         |
+| CL10B104KB8NNNC          | 50V 100nF X7R ±10% 0603 Ceramic Capacitors RoHS                                                                               | 100                                           | 0.0026     | $0.26       | [https://www.lcsc.com/product-detail/C1591.html](https://www.lcsc.com/product-detail/C1591.html)         | $0.79         |
+| CL10A106KP8NNNC          | 10V 10uF X5R ±10% 0603 Ceramic Capacitors RoHS                                                                                | 50                                            | 0.0058     | $0.29       | [https://www.lcsc.com/product-detail/C19702.html](https://www.lcsc.com/product-detail/C19702.html)       | $1.08         |
+| CL10A105KB8NNNC          | 50V 1uF X5R ±10% 0603 Ceramic Capacitors RoHS                                                                                 | 50                                            | 0.0049     | $0.25       | [https://www.lcsc.com/product-detail/C15849.html](https://www.lcsc.com/product-detail/C15849.html)       | $1.33         |
+| CL31A107MQHNNNE          | 6.3V 100uF X5R ±20% 1206 Ceramic Capacitors RoHS                                                                              | 20                                            | 0.0552     | $1.10       | [https://www.lcsc.com/product-detail/C15008.html](https://www.lcsc.com/product-detail/C15008.html)       | $2.43         |
+| KT-0805B                 | 5mA 100mcd 460nm~475nm Blue 100mW 3.1V 0805 LED Indication - Discrete RoHS                                                    | 50                                            | 0.0117     | $0.59       | [https://www.lcsc.com/product-detail/C2293.html](https://www.lcsc.com/product-detail/C2293.html)         | $3.02         |
+| CD4148WSP                | 1A 4ns Independent 75V 1.25V@100mA 150mA 0805 Single Diodes RoHS                                                              | 100                                           | 0.0118     | $1.18       | [https://www.lcsc.com/product-detail/C30584799.html](https://www.lcsc.com/product-detail/C30584799.html) | $4.20         |
+| WS2812B-2020             | SMD,2.2x2mm LED Addressable, Specialty RoHS                                                                                   | 60                                            | 0.0658     | $3.95       | [https://www.lcsc.com/product-detail/C965555.html](https://www.lcsc.com/product-detail/C965555.html)     | $8.15         |
+| TYPE-C-31-M-12           | 1 16P Type-C SMD USB, DVI, HDMI Connector Assemblies RoHS                                                                     | 5                                             | 0.1762     | $0.88       | [https://www.lcsc.com/product-detail/C165948.html](https://www.lcsc.com/product-detail/C165948.html)     | $9.03         |
+| SKTDLHE010               | Without Bracket Rectangular Button No 3.9mm SPST SMD Tactile Switches RoHS                                                    | 10                                            | 0.1646     | $1.65       | [https://www.lcsc.com/product-detail/C380198.html](https://www.lcsc.com/product-detail/C380198.html)     | $10.68        |
+| SKSLLBE010               | 12V 2.2mm Round Button No 4.5mm SPST 50mA SMD,4.5x2.2mm Tactile Switches RoHS                                                 | 65                                            | 0.159      | $10.34      | [https://www.lcsc.com/product-detail/C358617.html](https://www.lcsc.com/product-detail/C358617.html)     | $21.02        |
+| RP2040                   | 133MHz 30 LQFN-56(7x7) Microcontrollers RoHS                                                                                  | 3                                             | 0.9482     | $2.84       | [https://www.lcsc.com/product-detail/C2040.html](https://www.lcsc.com/product-detail/C2040.html)         | $23.86        |
+| HDC1080DMBR              | ±2%RH -40℃~+125℃ 0%RH~100%RH I2C WSON-6(3x3) Humidity, Moisture Sensors RoHS                                                  | 5                                             | 0.9001     | $4.50       | [https://www.lcsc.com/product-detail/C82227.html](https://www.lcsc.com/product-detail/C82227.html)       | $28.36        |
+| NX3225GA-12MHZ-STD-CRG-2 | 8pF SMD3225-4P Crystals RoHS                                                                                                  | 5                                             | 0.257      | $1.29       | [https://www.lcsc.com/product-detail/C481407.html](https://www.lcsc.com/product-detail/C481407.html)     | $29.65        |
+| MLT-8530                 | 80dB Passive (Externally Driven) 2.7kHz 3.6V Electromagnetic SMD,8.5x8.5mm Alarms, Buzzers, and Sirens RoHS                   | 5                                             | 0.1941     | $0.97       | [https://www.lcsc.com/product-detail/C94599.html](https://www.lcsc.com/product-detail/C94599.html)       | $30.62        |
+| TPS2116DRLR              | 2 Active High 2.5A SOT-583 Power Distribution Switches, Load Drivers RoHS                                                     | 5                                             | 0.3756     | $1.88       | [https://www.lcsc.com/product-detail/C3235557.html](https://www.lcsc.com/product-detail/C3235557.html)   | $32.50        |
+| HS96L03W2C03             | 0.96 128x64 SSD1315 I2C LCD, OLED, Graphic RoHS                                                                               | 5                                             | 2.0084     | $10.04      | [https://www.lcsc.com/product-detail/C5248080.html](https://www.lcsc.com/product-detail/C5248080.html)   | $42.54        |
+| W25Q128JVSIQ             | 128Mbit 2.7V~3.6V 133MHz SPI SOIC-8-208mil Memory (ICs) RoHS                                                                  | 5                                             | 1.5657     | $7.83       | [https://www.lcsc.com/product-detail/C97521.html](https://www.lcsc.com/product-detail/C97521.html)       | $50.37        |
+| NCP1117ST33T3G           | 62dB@(120Hz) Positive Fixed 3.3V SOT-223 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators RoHS                      | 5                                             | 0.2315     | $1.16       | [https://www.lcsc.com/product-detail/C26537.html](https://www.lcsc.com/product-detail/C26537.html)       | $51.53        |
+| BSS138LT1G               | 50V 200mA 225mW 5.6Ω@2.75V One N-channel SOT-23 Single FETs, MOSFETs RoHS                                                     | 20                                            | 0.0342     | $0.68       | [https://www.lcsc.com/product-detail/C82045.html](https://www.lcsc.com/product-detail/C82045.html)       | $52.21        |
+| FRC0603F27R4TS           | 100mW 27.4Ω 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS                                     | 100                                           | 0.0009     | $0.09       | [https://www.lcsc.com/product-detail/C5126244.html](https://www.lcsc.com/product-detail/C5126244.html)   | $52.30        |
+| 0603WAF4700T5E           | 100mW 470Ω 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS                                      | 100                                           | 0.0012     | $0.12       | [https://www.lcsc.com/product-detail/C23179.html](https://www.lcsc.com/product-detail/C23179.html)       | $52.42        |
+| AR03BTCX5001             | 100mW 5kΩ 75V ±25ppm/℃ Thin Film Resistor ±0.1% 0603 Chip Resistor - Surface Mount RoHS                                       | 20                                            | 0.0302     | $0.60       | [https://www.lcsc.com/product-detail/C2828621.html](https://www.lcsc.com/product-detail/C2828621.html)   | $53.02        |
+| RC0603FR-07100RL         | 100mW 100Ω 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS                                      | 100                                           | 0.0011     | $0.11       | [https://www.lcsc.com/product-detail/C105588.html](https://www.lcsc.com/product-detail/C105588.html)     | $53.13        |
+| FRC0603F5101TS           | 100mW 5.1kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS                                     | 100                                           | 0.0009     | $0.09       | [https://www.lcsc.com/product-detail/C2907044.html](https://www.lcsc.com/product-detail/C2907044.html)   | $53.22        |
+| RC0603FR-0710KL          | 100mW 10kΩ 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS                                      | 100                                           | 0.0011     | $0.11       | [https://www.lcsc.com/product-detail/C98220.html](https://www.lcsc.com/product-detail/C98220.html)       | $53.33        |
+| FRC0603F3302TS           | 33kΩ 100mW 75V ±100ppm/℃ Thick Film Resistor ±1% 0603 Chip Resistor - Surface Mount RoHS                                      | 100                                           | 0.0009     | $0.09       | [https://www.lcsc.com/product-detail/C2907028.html](https://www.lcsc.com/product-detail/C2907028.html)   | $53.42        |
+| RC0402FR-071KL           | 1kΩ 62.5mW 50V ±100ppm/℃ Thick Film Resistor ±1% 0402 Chip Resistor - Surface Mount RoHS                                      | 100                                           | 0.0006     | $0.06       | [https://www.lcsc.com/product-detail/C106235.html](https://www.lcsc.com/product-detail/C106235.html)     | $53.48        |
+| PZ254V-11-03P            | 3P 1x3P -40℃~+105℃ Pin Header Black 2.54mm 2.5mm 6mm 250V 3mm 1 3A Through Hole Through Hole,P=2.54mm Headers, Male Pins RoHS | 50                                            | 0.0162     | $0.81       | [https://www.lcsc.com/product-detail/C2937625.html](https://www.lcsc.com/product-detail/C2937625.html)   | $54.29        |
+| PZ254V-11-04P            | 4P 1x4P -40℃~+105℃ Black Pin Header 2.54mm 2.5mm 6mm 250V 3mm 1 3A Through Hole Through Hole,P=2.54mm Headers, Male Pins RoHS | 20                                            | 0.0217     | $0.43       | [https://www.lcsc.com/product-detail/C2691448.html](https://www.lcsc.com/product-detail/C2691448.html)   | $54.72        |
+
+
+Plus $31.36 for the PCBs
